@@ -1,0 +1,11 @@
+.a{
+	animation:m 2s linear 0.1s infinite;
+}
+
+@keyframes m{ 
+	0%{
+		filter: hue-rotate(-360deg);
+		}100%{
+			filter: hue-rotate(-0deg);
+	}
+}
